@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+body {
+ background-color: antiquewhite;
+}
+ul {
+    list-style: none;
+    background-color: pink;
+    padding: 10px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+li a{
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(29, 32, 32);
+}
+.grid-container {
+display: grid;
+grid-template-columns: auto auto;
+}
+.table-satu {
+    width: 50%;
+    text-align: center;
+}
+.table-dua {
+    width: 50%;
+    text-align: center;
+}
+table tr td:hover {
+    background-color: rgb(194, 78, 98);
+    transition: 0.9s;
+}
+table th {
+    background-color: violet;
+ }

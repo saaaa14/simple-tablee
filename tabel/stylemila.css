@@ -1,0 +1,12 @@
+table {
+    width: 100%;
+    text-align: center;
+}
+table tr td:hover{
+    transition: 0.9s;
+background-color:pink;
+color: black;
+}
+table th {
+    background-color: aquamarine;
+}
